@@ -45,7 +45,7 @@ client.on('messageCreate', async (message) => {
             GPT 3: Hello, how can I help you?
             ${message.author.username}: ${messageWithoutMention}
             GPT 3:`,
-            max_tokens: 512
+            max_tokens: process.env.MAX_TOKENS
         });
 
         const usedTokens = response.data.usage.total_tokens;
