@@ -2,7 +2,7 @@
 
 A discord.js bot that uses the OpenAI API to be able to respond to users that mention the bot in a message.
 
-The script outputs the amount of tokens used every time an OpenAI request is made. The max_tokens per request can be changed by setting it to a different int (default is 512). It also keeps track of total tokens used per session of the script running.
+The script outputs the amount of tokens used every time an OpenAI request is made. The max_tokens per request can be changed by setting it to a different value in the .env file (default is 512). It also keeps track of total tokens used per session of the script running.
 ## External Libraries
 
 - OpenAI
